@@ -1,0 +1,10 @@
+.bordered {
+  border-top: 1.5px solid black;
+}
+
+@media screen and (min-width: 992px) {
+  .bordered {
+    border-top: 0px;
+    border-left: 2px solid black;
+  }
+}
